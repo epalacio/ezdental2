@@ -2533,6 +2533,9 @@ input, select, textarea {
 
 		}
 
+	.quotes-alt {
+		justify-content: center
+	}
 /* Ratungs */
 
 	.ratings {
@@ -3155,6 +3158,18 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		position: relative;
 	}
+
+	.image-alt {
+		align-items: center;
+		display: flex;
+		margin: 20px;
+		padding: 10px;
+	}
+
+		.image-alt img {
+			max-width: 400px;
+			border-radius: 5px;
+		}
 
 		.image img {
 			border-radius: 4px;
