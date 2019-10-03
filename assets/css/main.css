@@ -5301,6 +5301,11 @@ input, select, textarea {
 
  /* --------- Modal --------- */
 
+ .container-portfolio {
+ 	align-items: center;
+ 	display: grid;
+ }
+ 
  .modal {
 z-index:1;
 display:none;
@@ -5350,12 +5355,6 @@ background-color:rgba(0,0,0,0.9)
 	margin-top: 50px;
 	text-decoration: none;
 }
-
-.container1 {
-	align-items: center;
-	display: grid;
-}
-
 
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)}
