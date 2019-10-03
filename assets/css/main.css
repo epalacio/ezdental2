@@ -5341,13 +5341,13 @@ background-color:rgba(0,0,0,0.9)
 	-webkit-backface-visibility:hidden
 }
 
-.closer {
+.close-modal {
 	color: #fff;
 	cursor: pointer;
 	float: right;
 	font-size: 40px;
 	font-weight: bold;
-	margin-top: 60px;
+	margin-top: 50px;
 	text-decoration: none;
 }
 
