@@ -176,8 +176,13 @@
 
 
 // Modal
-
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
-}
+};
+
+// Copyright date
+const date = new Date().getFullYear();
+const copyrightDiv = document.getElementById('copyright');
+
+copyrightDiv.innerHTML = `<p>&copy; EZ Dental Ceramics. All rights reserved. ${date}</p>`
